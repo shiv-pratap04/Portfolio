@@ -80,9 +80,72 @@
             <h2 class="page-header">Projects</h2>
 
             <div class="project-container">
+              
+              <div class="project-card" id="project1">
+                  <div class="project-number project-number-right">01</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/React.png" alt="" />
+                      <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                      <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/netlify.svg" alt="" /> -->
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+
+                    </div>
+          
+                    <h2 class="project-heading">StudyNotion - An EdTech Platform</h2>
+                    <p class="project-sub-heading">
+                      StudyNotion is a comprehensive educational platform aimed at providing a seamless experience for students and educators alike. It offers a range of features that facilitate learning, collaboration, and resource sharing.                    </p>
+                    <div class="btn-group">
+                      <!-- <button class="btn-pink btn-project">Read More</button> -->
+                      <a href="https://github.com/shiv-pratap04/EdtechPlatform.git" target="_blank">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://edtech-platform-omdlosczy-shiv-pratap04s-projects.vercel.app" target="_blank">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card" id="project1">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/React.png" alt="" />
+                      <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                      <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/netlify.svg" alt="" /> -->
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+
+                    </div>
+          
+                    <h2 class="project-heading">E-Commerce Website</h2>
+                    <p class="project-sub-heading">
+                      About
+This project is a fully functional e-commerce website built using the MERN (MongoDB, Express, React, Node.js) stack. It features user authentication, product management, a shopping cart, order placement, and payment gateway integration. The admin dashboard allows for efficient store management, including order tracking and product uploads.                    </p>
+                    <div class="btn-group">
+                      <!-- <button class="btn-pink btn-project">Read More</button> -->
+                      <a href="https://github.com/shiv-pratap04/FULLSTACK-ECOMMERCE-WEBSITE" target="_blank">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://fullstack-ecommerce-website-jihogdnmg-shiv-pratap04s-projects.vercel.app" target="_blank">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
           
                 <div class="project-card" id="project3">
-                  <div class="project-number project-number-right">01</div>
+                  <div class="project-number project-number-right">03</div>
                   <div class="project-content project-content-left">
                     <div class="project-skill-container">
                       <img class="project-skill" src="./images/stack/HTML.png" alt="" />
@@ -113,7 +176,7 @@
                 </div>
           
                 <div class="project-card" id="project4">
-                  <div class="project-number project-number-left">02</div>
+                  <div class="project-number project-number-left">04</div>
                   <div class="project-content project-content-right">
                     <div class="project-skill-container">
                       <img class="project-skill" src="./images/stack/HTML.png" alt="" />
@@ -279,6 +342,22 @@
     </div>
   <script src="https://kit.fontawesome.com/1e2929ab7d.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener("mousemove", (e) => {
+  // Get all elements you want to move
+  const elements = document.querySelectorAll(".hero-section-right .icons");
+
+  // Calculate movement values
+  const moveX = (e.clientX - window.innerWidth / 2) * 0.01; // Adjust the 0.01 for more/less effect
+  const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+
+  elements.forEach((el, index) => {
+    // Add a different multiplier for each icon to make them move at different "depths"
+    const strength = (index + 1) * 0.5; // e.g., 0.5, 1.0, 1.5 ...
+    el.style.transform = `translate(${moveX * strength}px, ${moveY * strength}px)`;
+  });
+});
+  </script>
   <script>
     var typeData = new Typed(".role", {
       strings: [
