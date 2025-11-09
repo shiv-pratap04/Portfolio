@@ -1,6 +1,6 @@
-# Shiv Pratap Singh's Personal Portfolio
+Portfolio Website
 
-[![View Live Demo](https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)]([https://your-live-portfolio-link.com](https://portfolio-shiv-pratap04s-projects.vercel.app/))
+[![View Live Demo](https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-shiv-pratap04s-projects.vercel.app/)
 
 Welcome to the source code for my personal portfolio website. This site is a single-page application built with HTML, CSS, and JavaScript to showcase my skills, projects, and professional journey as an aspiring software developer.
 
